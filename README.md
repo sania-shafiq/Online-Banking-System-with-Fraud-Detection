@@ -1,31 +1,52 @@
-🏦 Online Banking System with Fraud Detection
-📖 Overview
+# 🏦 Online Banking System with Fraud Detection
 
-The Online Banking System is a web-based application developed using PHP (Backend) and XAMPP (Apache & MySQL). It allows users to securely manage bank accounts, perform deposits and withdrawals, and view transaction history. The system also includes a Fraud Detection Module to monitor and flag suspicious transactions.
+## 📖 Overview
 
-🚀 Features
+The **Online Banking System with Fraud Detection** is a secure and user-friendly web application developed using **PHP (Backend)** and **XAMPP (Apache & MySQL)**. This project simulates real-world digital banking operations, allowing users to manage their accounts, perform financial transactions, and monitor their activity safely.
 
-🔐 User Registration & Login (Secure authentication)
+What makes this system more powerful is its **built-in Fraud Detection Module**, which automatically analyzes transactions and flags suspicious activities to enhance security and prevent potential fraud. The project is designed with a clean, modular structure, making it easy to understand, maintain, and extend.
 
-💳 Deposit and Withdraw Funds
 
-💰 Real-time Balance Updates
 
-📄 Transaction History Tracking
+## 🚀 Key Features
 
-🛡 Rule-based Fraud Detection
+### 🔐 Secure Authentication
 
-🗂 Fraud Alert Logging
+* User registration and login system
+* Password hashing for enhanced security
+* Session-based access control
 
-🛠 Technologies Used
+### 💳 Banking Operations
 
-Backend: PHP
+* Deposit funds into account
+* Withdraw funds with balance validation
+* Real-time account balance updates
+* Detailed transaction history tracking
 
-Frontend: HTML, CSS, JavaScript
+### 🛡 Fraud Detection System
 
-Database: MySQL
+* Detects large or unusual transactions
+* Flags rapid multiple transactions
+* Logs suspicious activities in database
+* Improves overall transaction security
 
-Server Environment: XAMPP (Apache)
+
+
+## 🛠 Technologies Used
+
+* **Backend:** PHP
+* **Frontend:** HTML, CSS, JavaScript
+* **Database:** MySQL
+* **Server Environment:** XAMPP (Apache Server)
+
+
+
+## 🔐 Security Highlights
+
+* Password encryption using `password_hash()`
+* SQL Injection prevention with prepared statements
+* Secure session management
+* Real-time fraud monitoring
 
 
 
